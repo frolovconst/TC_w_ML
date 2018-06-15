@@ -1,4 +1,4 @@
--rootj
+-root
   -code
     --WHITE ...
   -data
