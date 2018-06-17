@@ -11,7 +11,7 @@
 8. Run the 'convert_srs_to_csv' function and then the 'smooth_srs' function from WHITE_raw_data_ordering.ipynb as shown in "Series conversion and smoothing" section.  
 9. Place the relevant downloaded d07_text_meta_yyyy_mm_dd.txt file into 'stations/raw' folder.  
 10. Run the 'resave_stations' function from WHITE_raw_data_ordering.ipynb as shown in "Stations conversion to csv and filtering" section. 
-11. Remove 'raw' folders from the 'inc', 'series', and 'stations' folders.  
+11. Remove the 'raw' folders from the 'inc', 'series', and 'stations' folders.  
 
 
 
