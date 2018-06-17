@@ -1,5 +1,8 @@
-1. Download data from http://pems.dot.ca.gov/?dnode=Clearinghouse  
-  1.1. Download series data
+1. Download the data for the period of interest from http://pems.dot.ca.gov/?dnode=Clearinghouse (choose district 7 wherever possible; scripts from *_download folders can be used)  
+  1.1. Download series data: section "Station 5-Minute"  
+  1.2. Download incidents data: sections "CHP Incidents Day" and "CHP Incidents Month"  
+  1.3. Download stations data: section "Stations Metadata"
+ 
 
 <pre>
 -root  
