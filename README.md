@@ -1,6 +1,6 @@
 The main parts of the working code can be found in the files with WHITE_ prefix in the 'incidents_touch' folder.  
 # Downloading and organising data
-1. Download the data for the period of interest from http://pems.dot.ca.gov/?dnode=Clearinghouse (choose district 7 wherever possible; scripts from *_download folders can be used).  
+1. Download the data for the period of interest from http://pems.dot.ca.gov/?dnode=Clearinghouse (choose district 7 wherever possible; scripts from the '*_download' folders can be used).  
   1.1. Download series data: section "Station 5-Minute".  
   1.2. Download incidents data: sections "CHP Incidents Day" and "CHP Incidents Month".  
   1.3. Download stations data: section "Stations Metadata".
