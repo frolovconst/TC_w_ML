@@ -1,5 +1,5 @@
-The main parts of orking code are in the files with WHITE_ prefix in the 'incidents_touch' folder.  
-# Downloading and organsing data
+The main parts of the working code can be found in the files with WHITE_ prefix in the 'incidents_touch' folder.  
+# Downloading and organising data
 1. Download the data for the period of interest from http://pems.dot.ca.gov/?dnode=Clearinghouse (choose district 7 wherever possible; scripts from *_download folders can be used).  
   1.1. Download series data: section "Station 5-Minute".  
   1.2. Download incidents data: sections "CHP Incidents Day" and "CHP Incidents Month".  
@@ -13,10 +13,9 @@ The main parts of orking code are in the files with WHITE_ prefix in the 'incide
 8. Run the 'convert_srs_to_csv' function and then the 'smooth_srs' function from WHITE_raw_data_ordering.ipynb as shown in "Series conversion and smoothing" section.  
 9. Place the relevant downloaded d07_text_meta_yyyy_mm_dd.txt file into 'stations/raw' folder.  
 10. Run the 'resave_stations' function from WHITE_raw_data_ordering.ipynb as shown in "Stations conversion to csv and filtering" section. 
-11. Remove the 'raw' folders from the 'inc', 'series', and 'stations' folders.  
+11. Remove the 'raw' folders from 'inc', 'series', and 'stations' folders.  
 
 For the proper functioning of the code from this project, create a 'data -> PeMS -> Incidents -> work_folder -> figs' folder. Then the file hierarchy should look as follows:  
-
 <pre>
 -root  
   -code  
@@ -52,3 +51,8 @@ For the proper functioning of the code from this project, create a 'data -> PeMS
               -stations  
                 --d07_text_meta_2017_04_29.csv  
 </pre>
+
+# Constructing the dataset
+To construct the dataset use the WHITE_dataset_construction.ipynb file. There is some noise in the data. Some sensors demonstrate the same readings for different days, for instance. This has not been dealt with. The only measure for cleaning the data is taken in 'smooth_srs' function during the smoothing of series. It is the removal of sensors whose reading have low variance.  
+# Classifying data
+The code used for accident detection over the dataset is contained in the WHITE_accident_detection.ipynb file.
