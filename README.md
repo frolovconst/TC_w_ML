@@ -1,3 +1,4 @@
+The main parts of orking code are in the files with WHITE_ prefix in the 'incidents_touch' folder.  
 # Downloading and organsing data
 1. Download the data for the period of interest from http://pems.dot.ca.gov/?dnode=Clearinghouse (choose district 7 wherever possible; scripts from *_download folders can be used).  
   1.1. Download series data: section "Station 5-Minute".  
@@ -14,7 +15,7 @@
 10. Run the 'resave_stations' function from WHITE_raw_data_ordering.ipynb as shown in "Stations conversion to csv and filtering" section. 
 11. Remove the 'raw' folders from the 'inc', 'series', and 'stations' folders.  
 
-
+For the proper functioning of the code from this project, create a 'data -> PeMS -> Incidents -> work_folder -> figs' folder. Then the file hierarchy should look as follows:  
 
 <pre>
 -root  
