@@ -1,3 +1,4 @@
+# Downloading and organsing data
 1. Download the data for the period of interest from http://pems.dot.ca.gov/?dnode=Clearinghouse (choose district 7 wherever possible; scripts from *_download folders can be used).  
   1.1. Download series data: section "Station 5-Minute".  
   1.2. Download incidents data: sections "CHP Incidents Day" and "CHP Incidents Month".  
