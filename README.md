@@ -1,5 +1,5 @@
-1. Download data from http://pems.dot.ca.gov/?dnode=Clearinghouse
-1.1. Download series data
+1. Download data from http://pems.dot.ca.gov/?dnode=Clearinghouse  
+  1.1. Download series data
 
 <pre>
 -root  
