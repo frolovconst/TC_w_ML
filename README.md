@@ -54,6 +54,6 @@ For the proper functioning of the code from this project, create a 'data -> PeMS
 
 # Constructing the dataset
 To construct the dataset use the WHITE_dataset_construction.ipynb file. There is some noise in the data. Some sensors demonstrate the same readings for different days, for instance. This has not been dealt with. The only measure for cleaning the data is taken in 'smooth_srs' function during the smoothing of series. It is the removal of sensors whose reading have low variance.  
-The weather data is taken from https://accuweather.com  
+The weather data is taken from https://accuweather.com.  
 # Classifying data
 The code used for accident detection over the dataset is contained in the WHITE_accident_detection.ipynb file.
