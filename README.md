@@ -5,6 +5,15 @@
 2. Create 'data -> PeMS -> Incidents -> work_folder -> Months -> inc' folders (names must match) in your project root folder. Place unzipping.sh file into 'Months'.  
 3. Place the downloaded all_text_chp_incidents_day_yyyy_mm_dd.txt.zip files and all_text_chp_incidents_month_yyyy_mm.txt.zip file for the month of interest into 'inc' folder.  
 4. Run unzipping.sh in terminal with 'Months' folder as working directory.  
+5. Run the 'resave_incs' function from WHITE_raw_data_ordering.ipynb as shown in "Incidents convert to .csv" section of it. 
+6. Run 'filter_blk_desc' function from WHITE_raw_data_ordering.ipynb as shown in "Filtering of line blocking incidents" section.  
+7. Place the downloaded d07_text_station_5min_yyyy_mm_dd.txt.gz files for the month of interest into 'series/raw' folder.  
+8. Run the 'convert_srs_to_csv' function and then the 'smooth_srs' function from WHITE_raw_data_ordering.ipynb as shown in "Series conversion and smoothing" section.  
+9. Place the relevant downloaded d07_text_meta_yyyy_mm_dd.txt file into 'stations/raw' folder.  
+10. Run the 'resave_stations' function from WHITE_raw_data_ordering.ipynb as shown in "Stations conversion to csv and filtering" section. 
+11. Remove 'raw' folders from the 'inc', 'series', and 'stations' folders.  
+
+
 
 <pre>
 -root  
