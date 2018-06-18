@@ -1,4 +1,4 @@
-The main parts of the working code can be found in the files with WHITE_ prefix in the 'incidents_touch' folder.  
+The code found in the files with WHITE_ prefix in the 'incidents_touch' folder should only be used; code from other files is not guaranteed to run smoothly.  
 # Downloading and organising data
 1. Download the data for the period of interest from http://pems.dot.ca.gov/?dnode=Clearinghouse (choose district 7 wherever possible; scripts from the '*_download' folders can be used).  
   1.1. Download series data: section "Station 5-Minute".  
